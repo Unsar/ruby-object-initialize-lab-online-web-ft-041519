@@ -4,6 +4,7 @@ class Dog
     @name=name
     @breed=breed
     if breed=="nil"
+      return
   end
   
   def name=(name)
