@@ -18,11 +18,8 @@ class Dog
   
   def breed
     @breed
-  if breed=="nil"
-    return "Mutt"
   end
-end
-end
+  end
 
 fido = Dog.new("Fido", "Pug")
 fido.name
