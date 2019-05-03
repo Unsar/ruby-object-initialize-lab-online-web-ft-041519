@@ -22,6 +22,7 @@ class Dog
     return "Mutt"
   end
 end
+end
 
 fido = Dog.new("Fido", "Pug")
 fido.name
